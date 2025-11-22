@@ -1,6 +1,6 @@
 # Event Consistency Checker  
 
-**Live Demo:** https://rtfenter.github.io/event-consistency-checker/  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge)](https://rtfenter.github.io/Event-Consistency-Checker/)
 
 A tiny interactive tool to compare two JSON events and surface basic inconsistencies between their fields, naming, and types.
 
