@@ -60,7 +60,8 @@ Issues: 4
 ---
 
 ## Demo Screenshot
-<img width="1046" height="861" alt="Screenshot 2025-11-22 at 4 38 35 PM" src="https://github.com/user-attachments/assets/e73391a8-7bdb-4404-99af-762f065c614d" />
+<img width="2696" height="1532" alt="Screenshot 2025-11-23 at 09-05-35 Event Consistency Checker" src="https://github.com/user-attachments/assets/46999069-c382-4bfe-90e9-1aade7cc834a" />
+
 
 
 ---
