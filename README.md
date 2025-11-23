@@ -10,7 +10,7 @@ The goal of this checker is to provide a simple, legible way to understand how s
 
 ---
 
-## 🧩 Features (MVP)
+## Features (MVP)
 
 The first version includes:
 
@@ -25,7 +25,7 @@ The tool is intentionally minimal and focused on conceptual clarity.
 
 ---
 
-## 🧪 Example
+## Example
 
 Event A:
 ```json
@@ -59,13 +59,13 @@ Issues: 4
 
 ---
 
-## 🖼️ Demo Screenshot
+## Demo Screenshot
 Here’s a quick look at the Loyalty Points Simulator in action:<img width="1046" height="861" alt="Screenshot 2025-11-22 at 4 38 35 PM" src="https://github.com/user-attachments/assets/e73391a8-7bdb-4404-99af-762f065c614d" />
 
 
 ---
 
-## 🧠 Why Event Consistency Matters
+## Why Event Consistency Matters
 
 Even small inconsistencies can ripple through distributed systems:
 
@@ -80,7 +80,7 @@ This checker provides a small, understandable way to visualize how event drift a
 
 ---
 
-## 🗺️ How This Maps to Real Systems
+## How This Maps to Real Systems
 
 Even though it's simple, each part corresponds to real-world architecture:
 
@@ -101,7 +101,7 @@ This tool represents a tiny, legible slice of that workflow.
 
 ---
 
-## 🔗 Part of the Systems of Trust Series
+## Part of the Systems of Trust Series
 
 This series explores how systems preserve truth, alignment, and coherence across:
 
@@ -111,18 +111,16 @@ This series explores how systems preserve truth, alignment, and coherence across
 - semantic consistency  
 - alignment between services  
 
-Main repo (coming soon).
-
 ---
 
-## 🚧 Status
+## Status
 
 MVP implemented and active.  
 This checker is intentionally lightweight and focuses on core mechanics, not production-grade validation.
 
 ---
 
-## ▶️ Local Use
+## Local Use
 
 No installation required.
 
