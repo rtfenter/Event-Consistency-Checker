@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge)](https://rtfenter.github.io/Event-Consistency-Checker/)
 
-A tiny interactive tool to compare two JSON events and surface basic inconsistencies between their fields, naming, and types.
+## A tiny interactive tool to compare two JSON events and surface basic inconsistencies between their fields, naming, and types.
 
 This project is part of my **Systems of Trust Series**, exploring how distributed systems maintain truth, alignment, and consistency across event flows and microservices.
 
