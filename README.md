@@ -103,13 +103,8 @@ This tool represents a tiny, legible slice of that workflow.
 
 ## Part of the Systems of Trust Series
 
-This series explores how systems preserve truth, alignment, and coherence across:
-
-- event contracts  
-- schema governance  
-- truth drift  
-- semantic consistency  
-- alignment between services  
+Main repo:  
+https://github.com/rtfenter/Systems-of-Trust-Series
 
 ---
 
