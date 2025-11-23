@@ -60,7 +60,7 @@ Issues: 4
 ---
 
 ## Demo Screenshot
-Here’s a quick look at the Loyalty Points Simulator in action:<img width="1046" height="861" alt="Screenshot 2025-11-22 at 4 38 35 PM" src="https://github.com/user-attachments/assets/e73391a8-7bdb-4404-99af-762f065c614d" />
+<img width="1046" height="861" alt="Screenshot 2025-11-22 at 4 38 35 PM" src="https://github.com/user-attachments/assets/e73391a8-7bdb-4404-99af-762f065c614d" />
 
 
 ---
