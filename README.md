@@ -10,6 +10,21 @@ The goal of this checker is to provide a simple, legible way to understand how s
 
 ---
 
+## Purpose
+
+Even when two events describe the same user action, small inconsistencies — different names, types, or missing fields — can create downstream ambiguity.  
+These inconsistencies introduce:
+
+- misaligned contract assumptions  
+- data-quality issues  
+- difficulties reconciling logs  
+- incorrect dashboards and analytics  
+- inconsistent interpretations of “what actually happened”  
+
+This checker surfaces these mismatches clearly and early.
+
+---
+
 ## Features (MVP)
 
 The first version includes:
