@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-000?style=for-the-badge)](https://rtfenter.github.io/Event-Consistency-Checker/)
 
-## A tiny interactive tool to compare two JSON events and surface basic inconsistencies between their fields, naming, and types.
+### A tiny interactive tool to compare two JSON events and surface basic inconsistencies between their fields, naming, and types.
 
 This project is part of my **Systems of Trust Series**, exploring how distributed systems maintain truth, alignment, and consistency across event flows and microservices.
 
@@ -77,7 +77,37 @@ Issues: 4
 ## Demo Screenshot
 <img width="2696" height="1532" alt="Screenshot 2025-11-23 at 09-05-35 Event Consistency Checker" src="https://github.com/user-attachments/assets/46999069-c382-4bfe-90e9-1aade7cc834a" />
 
+---
 
+## Consistency Check Flow Diagram
+
+```
+       [Event A JSON]       [Event B JSON]
+              |                     |
+              v                     v
+        Extract Fields        Extract Fields
+              \               /
+               \             /
+                v           v
+           Field Presence Comparator
+      (only in A, only in B, shared keys)
+                |
+                v
+          Naming Comparator
+   (user_id vs userId vs userid, etc.)
+                |
+                v
+            Type Comparator
+        ("123" vs 123, enum drift)
+                |
+                v
+        Semantic/Meaning Drift Check
+ (value interpretation differences, e.g. login vs LOGIN)
+                |
+                v
+            Consistency Summary
+      (pass/fail, mismatch count, notes)
+```
 
 ---
 
@@ -130,7 +160,6 @@ MVP implemented and active.
 This checker is intentionally lightweight and focuses on core mechanics, not production-grade validation.
 
 ---
-
 ## Local Use
 
 No installation required.
@@ -141,4 +170,3 @@ To run locally:
 2. Open `index.html` in your browser  
 
 Everything runs client-side.
-
