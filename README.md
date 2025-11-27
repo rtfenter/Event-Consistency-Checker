@@ -27,7 +27,7 @@ This checker surfaces these mismatches clearly and early.
 
 ## Features (MVP)
 
-The first version includes:
+This prototype includes:
 
 - Input boxes for Event A and Event B  
 - Basic field comparison (presence/absence)  
